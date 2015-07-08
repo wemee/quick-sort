@@ -1,5 +1,4 @@
 # quick-sort
-## Quick Sort by C
 
 陣列最右邊為pivot
 

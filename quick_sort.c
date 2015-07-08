@@ -1,11 +1,3 @@
-//
-//  quick_sort.c
-//  HightSchool
-//
-//  Created by Tsai Jr-Yung on 2015/7/8.
-//  Copyright (c) 2015年 Wemee. All rights reserved.
-//
-
 #include "quick_sort.h"
 
 void swap(int *a, int *b) {

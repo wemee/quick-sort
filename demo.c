@@ -18,7 +18,7 @@ int main(void) {
     srand((unsigned int)time(NULL));
     
     for (i=0; i<_SIZE_; i++)
-        ary[i] = rand()%(_SIZE_*10);
+        ary[i] = rand()%(_SIZE_<<3);
     
     printf("排序前: ");
     p_all(ary, _SIZE_);

@@ -1,9 +1,9 @@
 # quick-sort
-Quick Sort by C
+## Quick Sort by C
 
 陣列最右邊為pivot
 
-從最左邊的數字開始一次檢查
+從最左邊的數字開始依次檢查
 
 比pivot小的數字，換到陣列左邊慢慢往右堆積
 

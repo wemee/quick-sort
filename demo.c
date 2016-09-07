@@ -14,11 +14,11 @@ void p_all(int *ary, int n) {
 }
 
 int main(void) {
-    int ary[_SIZE_], i;
+    int ary[_SIZE_], i, mod;
     srand((unsigned int)time(NULL));
     
-    for (i=0; i<_SIZE_; i++)
-        ary[i] = rand()%(_SIZE_<<3);
+    for (i=0, mod=_SIZE_<<3; i<_SIZE_; i++)
+        ary[i] = rand()%(mod);
     
     printf("排序前: ");
     p_all(ary, _SIZE_);
